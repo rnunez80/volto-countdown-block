@@ -13,7 +13,7 @@ MAKEFLAGS+=--no-builtin-rules
 # Project settings
 
 DIR=$(shell basename $$(pwd))
-ADDON ?= "@plone-collective/volto-countdown-block"
+ADDON ?= "volto-countdown-block"
 
 # Recipe snippets for reuse
 

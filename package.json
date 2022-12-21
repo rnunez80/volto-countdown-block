@@ -1,5 +1,5 @@
 {
-  "name": "@plone-collective/volto-countdown-block",
+  "name": "volto-countdown-block",
   "version": "0.1.0",
   "description": "volto-countdown-block: Volto add-on",
   "main": "src/index.js",
