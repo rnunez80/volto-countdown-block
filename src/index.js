@@ -1,6 +1,7 @@
-import {CountdownView, CountdownEdit} from './';
 import clockSVG from '@plone/volto/icons/clock.svg';
-import './theme/main.less';
+import View from './View';
+import Edit from './Edit';
+
 
 const applyConfig = (config) => {
   config.blocks.blocksConfig.countdown = {
@@ -8,10 +9,10 @@ const applyConfig = (config) => {
     title: 'Countdown',
     icon: clockSVG,
     group: 'common',
-    view: CountdownView,
-    edit: CountdownEdit,
+    view: View,
+    edit: Edit,
     restricted: false,
-    mostUsed: true,
+    mostUsed: false,
     sidebarTab: 1,
   };
   return config;
