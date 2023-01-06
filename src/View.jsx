@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import './theme/countdown.less';
+import './theme/countdown.css';
 
 const View = ({data, isEditMode, className}) => {
   const [days, setDays] = useState(0);
