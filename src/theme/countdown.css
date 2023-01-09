@@ -10,16 +10,17 @@
   margin: 0 auto;
   padding: 0rem;
   text-align: center;
+  margin-bottom: 2em;
 }
-.countdown .primary {
+.countdown.primary {
   background-color: #b11116;
   color: #fff;
 }
-.countdown .secondary {
+.countdown.secondary {
   background-color: #2e3233;
   color: #fff;
 }
-.countdown .tertiary {
+.countdown.tertiary {
   background-color: #FFB907;
   color: #333;
 }
