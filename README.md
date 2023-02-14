@@ -1,6 +1,6 @@
 # volto-countdown-block
 
-A [volto](https://plone.org/what-is-plone/volto) [block](https://6.dev-docs.plone.org/volto/blocks/index.html) [add-on](https://6.dev-docs.plone.org/volto/addons/index.html) for a countdown block.
+A [Plone/volto](https://plone.org/why-plone) [block](https://6.dev-docs.plone.org/volto/blocks/index.html) [add-on](https://6.dev-docs.plone.org/volto/addons/index.html) for a countdown block.
 Countdown to any date/time you specify.
 
 ## Customizable properties
