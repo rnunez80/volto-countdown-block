@@ -10,7 +10,7 @@ Countdown to any date/time you specify.
 
 A example of Volto Countdown to any date/time you specify, it look like the following capture:
 
-![Volto Countdown date/time](./preview.png "Volto Countdown date/time")
+![Volto Countdown date/time](https://raw.githubusercontent.com/rnunez80/volto-countdown-block/main/preview.png "Volto Countdown date/time")
 
 ---
 
