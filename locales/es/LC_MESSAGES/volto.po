@@ -1,109 +1,116 @@
+# Translation of volto.pot to Spanish
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
-"POT-Creation-Date: 2023-08-22T03:35:06.144Z\n"
-"Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
-"Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
-"MIME-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-20T18:38:33.091Z\n"
+"PO-Revision-Date: 2023-08-22 00:28-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language: es\n"
+"Language-Team: ES <LL@li.org>\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Language-Code: en\n"
-"Language-Name: English\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Preferred-Encodings: utf-8\n"
+"MIME-Version: 1.0\n"
+"Language-Code: es\n"
+"Language-Name: Español\n"
 "Domain: volto\n"
+"X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
+"X-Generator: Poedit 3.3.2\n"
 
 #: Data
 # defaultMessage: Countdown Block
 msgid "Countdown Block"
-msgstr ""
+msgstr "Bloque Cuenta Regresiva"
 
 #: Schema
 # defaultMessage: Count Title
 msgid "count-title"
-msgstr ""
+msgstr "Título de Conteo"
 
 #: Schema
 # defaultMessage: Countdown Block
 msgid "countdown-block"
-msgstr ""
+msgstr "Bloque Cuenta Regresiva"
 
 #: Schema
 # defaultMessage: Countdown is over
 msgid "countdown-is-over"
-msgstr ""
+msgstr "Cuenta atrás ha terminado"
 
 #: Schema
 # defaultMessage: Countdown to Date
 msgid "countdown-to-date"
-msgstr ""
+msgstr "Cuenta atrás hasta la fecha"
 
 #: Schema
 # defaultMessage: Countdown to Next event
 msgid "countdown-to-next-event"
-msgstr ""
+msgstr "Cuenta atrás para el próximo evento"
 
 #: View
 # defaultMessage: days
 msgid "days"
-msgstr ""
+msgstr "días"
 
 #: Schema
 # defaultMessage: Default
 msgid "default"
-msgstr ""
+msgstr "Por defecto"
 
 #: Schema
 # defaultMessage: Emphasis
 msgid "emphasis"
-msgstr ""
+msgstr "Énfasis"
 
 #: Schema
 # defaultMessage: End Message
 msgid "end-message"
-msgstr ""
+msgstr "Mensaje final"
 
 #: View
 # defaultMessage: hours
 msgid "hours"
-msgstr ""
+msgstr "horas"
 
 #: View
 # defaultMessage: minutes
 msgid "minutes"
-msgstr ""
+msgstr "minutos"
 
 #: Schema
 # defaultMessage: Primary
 msgid "primary"
-msgstr ""
+msgstr "Primario"
 
 #: Schema
 # defaultMessage: Secondary
 msgid "secondary"
-msgstr ""
+msgstr "Secundario"
 
 #: View
 # defaultMessage: seconds
 msgid "seconds"
-msgstr ""
+msgstr "segundos"
 
 #: Schema
 # defaultMessage: Show Hours
 msgid "show-hours"
-msgstr ""
+msgstr "Mostrar horas"
 
 #: Schema
 # defaultMessage: Show minutes
 msgid "show-minutes"
-msgstr ""
+msgstr "Mostrar minutos"
 
 #: Schema
 # defaultMessage: Show Seconds
 msgid "show-seconds"
-msgstr ""
+msgstr "Mostrar segundos"
 
 #: Schema
 # defaultMessage: Tertiary
 msgid "tertiary"
-msgstr ""
+msgstr "Terciario"
