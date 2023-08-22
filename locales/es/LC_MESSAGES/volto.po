@@ -63,7 +63,7 @@ msgstr "Por defecto"
 #: Schema
 # defaultMessage: Emphasis
 msgid "emphasis"
-msgstr "énfasis"
+msgstr "Énfasis"
 
 #: Schema
 # defaultMessage: End Message
