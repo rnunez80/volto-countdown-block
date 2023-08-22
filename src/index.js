@@ -2,7 +2,6 @@ import clockSVG from '@plone/volto/icons/clock.svg';
 import View from './View';
 import Edit from './Edit';
 
-
 const applyConfig = (config) => {
   config.blocks.blocksConfig.countdown = {
     id: 'countdown',

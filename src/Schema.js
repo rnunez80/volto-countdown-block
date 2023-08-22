@@ -60,7 +60,7 @@ const messages = defineMessages({
 });
 
 export const CountdownSchema = (props) => {
-  const {intl} = props;
+  const { intl } = props;
   const currentDate = new Date();
   const tomorrow = new Date();
   tomorrow.setDate(currentDate.getDate() + 0);

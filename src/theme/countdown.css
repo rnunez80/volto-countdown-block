@@ -2,7 +2,7 @@
   color: revert;
   top: 0.85em;
   position: relative;
-  padding-bottom: 0.5em
+  padding-bottom: 0.5em;
 }
 
 .countdown {
@@ -20,7 +20,7 @@
   color: #fff;
 }
 .countdown.tertiary {
-  background-color: #FFB907;
+  background-color: #ffb907;
   color: #333;
 }
 
@@ -48,6 +48,6 @@
   margin-bottom: 20px;
 }
 .menu .countdown {
-    margin-bottom: inherit;
-    text-align: inherit;
+  margin-bottom: inherit;
+  text-align: inherit;
 }

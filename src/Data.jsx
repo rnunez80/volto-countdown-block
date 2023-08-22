@@ -14,9 +14,7 @@ const messages = defineMessages({
 const CountdownData = (props) => {
   const { data, block, onChangeBlock, schemaEnhancer } = props;
   const intl = useIntl();
-  const schema = schemaEnhancer
-    ? schemaEnhancer(CountdownSchema({ ...props, intl }), props)
-    : CountdownSchema({ ...props, intl });
+  const schema = schemaEnhancer ? schemaEnhancer(CountdownSchema({ ...props, intl }), props) : CountdownSchema({ ...props, intl });
 
   return (
     <BlockDataForm
