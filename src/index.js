@@ -19,4 +19,3 @@ const applyConfig = (config) => {
 };
 
 export default applyConfig;
-
