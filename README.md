@@ -10,7 +10,7 @@ Countdown to any date/time you specify.
 
 A example of Volto Countdown to any date/time you specify, it look like the following capture:
 
-![Volto Countdown date/time](./preview.png "Volto Countdown date/time")
+![Volto Countdown date/time](https://raw.githubusercontent.com/rnunez80/volto-countdown-block/main/preview.png "Volto Countdown date/time")
 
 ---
 
@@ -24,10 +24,14 @@ A example of Volto Countdown to any date/time you specify, it look like the foll
 1. `showSecond` (_boolean_): Show Seconds.
 1. `emphasis` (_choice_): Class used on the countdown block.
 
+## How to contribute
+
+See [DEVELOP.md](https://github.com/rnunez80/volto-countdown-block/blob/main/DEVELOP.md).
+
 
 ## Copyright and license
 
 The Initial Owner of the Original Code is Rafael Nunez.
 All Rights Reserved.
 
-See [LICENSE.md](https://github.com/rnunez80/volto-countdown-block/blob/master/LICENSE.md) for details.
+See [LICENSE.md](https://github.com/rnunez80/volto-countdown-block/blob/main/LICENSE.md) for details.
