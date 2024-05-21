@@ -51,3 +51,10 @@
   margin-bottom: inherit;
   text-align: inherit;
 }
+
+@media (max-width: 375px) {
+  .countdown li {
+    font-size: 0.8em;
+    padding: 0.8em;
+  }
+}
