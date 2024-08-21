@@ -12,12 +12,12 @@ const applyConfig = (config) => {
     icon: clockSVG,
     group: 'common',
     view: (props) => (
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div style={{ minHeight: '150px' }}>Loading...</div>}>
         <View {...props} />
       </Suspense>
     ),
     edit: (props) => (
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div style={{ minHeight: '150px' }}>Loading...</div>}>
         <Edit {...props} />
       </Suspense>
     ),
