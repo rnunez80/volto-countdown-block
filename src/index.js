@@ -1,9 +1,13 @@
-import React, { Suspense } from 'react';
+import loadable from '@loadable/component';
 import clockSVG from '@plone/volto/icons/clock.svg';
 
-// Use React.lazy to dynamically import the components
-const View = React.lazy(() => import('./View'));
-const Edit = React.lazy(() => import('./Edit'));
+// Use loadable to dynamically import the components
+const View = loadable(() => import('./View'), {
+  fallback: <div style={{ minHeight: '150px' }}>Loading...</div>,
+});
+const Edit = loadable(() => import('./Edit'), {
+  fallback: <div style={{ minHeight: '150px' }}>Loading...</div>,
+});
 
 const applyConfig = (config) => {
   config.blocks.blocksConfig.countdown = {
@@ -11,20 +15,13 @@ const applyConfig = (config) => {
     title: 'Countdown',
     icon: clockSVG,
     group: 'common',
-    view: (props) => (
-      <Suspense fallback={<div style={{ minHeight: '150px' }}>Loading...</div>}>
-        <View {...props} />
-      </Suspense>
-    ),
-    edit: (props) => (
-      <Suspense fallback={<div style={{ minHeight: '150px' }}>Loading...</div>}>
-        <Edit {...props} />
-      </Suspense>
-    ),
+    view: View,
+    edit: Edit,
     restricted: false,
     mostUsed: false,
     sidebarTab: 1,
   };
+
   return config;
 };
 
