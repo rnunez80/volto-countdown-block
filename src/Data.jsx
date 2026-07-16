@@ -1,8 +1,7 @@
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
+import { useIntl, defineMessages } from 'react-intl';
 import { CountdownSchema } from './Schema';
 import { BlockDataForm } from '@plone/volto/components';
-import { useIntl, defineMessages } from 'react-intl';
 
 const messages = defineMessages({
   CountdownBlock: {
@@ -14,7 +13,10 @@ const messages = defineMessages({
 const CountdownData = (props) => {
   const { data, block, onChangeBlock, schemaEnhancer } = props;
   const intl = useIntl();
-  const schema = schemaEnhancer ? schemaEnhancer(CountdownSchema({ ...props, intl }), props) : CountdownSchema({ ...props, intl });
+
+  const schema = schemaEnhancer
+    ? schemaEnhancer(CountdownSchema({ ...props, intl }), props)
+    : CountdownSchema({ ...props, intl });
 
   return (
     <BlockDataForm
@@ -27,7 +29,6 @@ const CountdownData = (props) => {
         });
       }}
       formData={data}
-      fieldIndex={data.index}
       block={block}
     />
   );
