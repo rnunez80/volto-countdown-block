@@ -3,6 +3,10 @@
 A [Plone/volto](https://plone.org/why-plone) [block](https://6.dev-docs.plone.org/volto/blocks/index.html) [add-on](https://6.dev-docs.plone.org/volto/addons/index.html) for a countdown block.
 Countdown to any date/time you specify.
 
+## Compatibility
+
+- Plone 6.0+ / Plone 6.1+
+- `@plone/volto` >= 17.0.0, 18.0.0, 19.0.0
 
 ## Features
 
